@@ -14,7 +14,7 @@ pp = pprint.PrettyPrinter(indent=4)
 articles = []
 exist_link = []
 
-init_depth = 1  # init crawl depth
+init_depth = 0  # init crawl depth
 site = 'all'  # init site
 date = '2021-08-24'  # init date
 init_url = "https://indeks.kompas.com/?site={}&date={}".format(site, date)
